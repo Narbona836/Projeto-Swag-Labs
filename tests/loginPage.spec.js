@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-import LoginPage from '../pages/loginPages';
+import LoginPage from '../pages/loginPage/loginPage';
 
 test('Padrao', async ({ page }) => {
   const loginPage = new LoginPage(page);
